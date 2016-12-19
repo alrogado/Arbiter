@@ -45,12 +45,14 @@
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>nexus-releases</id>
+            <id>bintray-deeplearning4j-maven</id>
+            <name>deeplearning4j-maven</name>
+            <url>https://api.bintray.com/maven/deeplearning4j/maven/arbiter/;publish=1</url>
+            <!-- <id>nexus-releases</id>
             <name>Nexus Release Repository</name>
-            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url> -->
         </repository>
     </distributionManagement>
-
 
     <description>Model Evaluation and Testing</description>
 
