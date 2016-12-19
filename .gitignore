@@ -1,4 +1,5 @@
-pom.xml.releaseBackup 
+pom.xml.releaseBackup
+tmp/
 target/
 *.ser
 application.home_IS_UNDEFINEiD
@@ -20,4 +21,3 @@ model-saver-*
 .project
 .classpath
 .idea
-
